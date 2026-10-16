@@ -12,6 +12,7 @@ async function run() {
   // Upvote the target 50 times.
   for (let i = 0; i < 50; i++) {
     // TODO: await upvote(target);
+    await upvote(target);
   }
 
   // Fetch the top 10 WITH metadata.
